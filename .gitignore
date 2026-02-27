@@ -6,3 +6,4 @@ venv/
 data/
 *.pt
 *.pth
+models/
