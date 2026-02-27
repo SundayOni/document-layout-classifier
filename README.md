@@ -4,7 +4,7 @@ A convolutional neural network (CNN) that classifies scanned document images int
 
 ---
 
-## 📌 Overview
+## Overview
 
 This project demonstrates end-to-end computer vision for document understanding:
 - Exploratory data analysis of document image properties
@@ -25,7 +25,7 @@ This project demonstrates end-to-end computer vision for document understanding:
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 ```
 document-layout-classifier/
 ├── data/                    # Document images (not tracked in git)
@@ -44,7 +44,7 @@ document-layout-classifier/
 
 ---
 
-## 🤖 Model
+##  Model
 
 - **Architecture**: ResNet18 pre-trained on ImageNet
 - **Approach**: Transfer learning — all layers frozen except the final fully connected layer
@@ -67,7 +67,7 @@ document-layout-classifier/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 ```bash
 # Clone the repo
 git clone https://github.com/SundayOni/document-layout-classifier.git
@@ -97,7 +97,7 @@ jupyter notebook
 
 ---
 
-## 🚀 Potential Improvements
+##  Potential Improvements
 
 - Collect more training data (500+ images per class)
 - Fine-tune deeper ResNet layers rather than just the final layer
